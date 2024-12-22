@@ -116,7 +116,7 @@ export default {
     let user = localStorage.getItem("user-info");
     if (user) {
       this.name = JSON.parse(user).name;
-      this.email = JSON.parse(user).emai;
+      this.email = JSON.parse(user).email;
       this.pass = JSON.parse(user).pass;
       this.userId = JSON.parse(user).id;
     } else {
